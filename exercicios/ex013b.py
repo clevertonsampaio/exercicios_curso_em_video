@@ -1,0 +1,7 @@
+n = float(input('Qual o valor do produto? R$'))
+m = int(input('Digite uma porcentagem para avista : '))
+me = int(input('Digite uma porcentagem para almento : '))
+d = n - (n * m / 100)
+a = n + (n * me / 100)
+print('O valor do produto é R${} menos {}% do avista fica R${}.'.format(n, m, d))
+print('O valor do produto é R${} mais {}% do parcelado fica R${}.'.format(n, me, a))

@@ -1,0 +1,8 @@
+nome = str(input('Digite uma frase :')).strip()
+nome = nome.lower()
+q = nome.split()
+nom = ''.join(q)
+print('A letra (A) aparece {} vezes nesta frase !'.format(nome.count('a')))
+print('A letra (A) é vista pela primeira vez na {} letra!'.format(nome.find('a')+1))
+print('A letra (A) é vista pela ultima vez na {} letra!'.format(nome.rfind('a')+1))
+print('E a frase toda tem {} letras!'.format(len(nom)))
