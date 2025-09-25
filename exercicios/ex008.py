@@ -1,3 +1,11 @@
+# Exercício 008 - Conversor de Medidas
+# Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
+
+# Solicite ao usuário que insira uma metragem em metros.
+# Converta essa metragem para decímetros, centímetros, milímetros, quilômetros, hectômetros e decâmetros.
+# Exiba todas as conversões de forma clara e organizada.
+
+
 n1 = float(input('Digite uma metragem: '))
 dm = n1 * 10
 c = n1 * 100
