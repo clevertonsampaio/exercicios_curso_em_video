@@ -1,3 +1,8 @@
+# exercicios/ex007.py
+# Programa que lê as duas notas de um aluno, calcula e mostra a sua média
+
+# :.1f limita a uma casa decimal
+
 # Calcular a media de um valor
 n1 = float(input('Digite a primeira nota: '))
 n2 = float(input('Digite outra nota: '))
