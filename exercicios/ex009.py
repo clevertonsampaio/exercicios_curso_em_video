@@ -1,4 +1,7 @@
 #TABUADA #
+# uma tabuada de um numero que o usuario escolher
+# ex: 5 x 1 = 5
+
 n = int(input('Digite um numero para ver sua tabuada: '))
 print('='*13)
 print('{} x  1  = {}'.format(n, n*1))
